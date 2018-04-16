@@ -1,0 +1,118 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Word Cloud</title>
+	<script src="lib/jquery-1.9.1.min.js"></script>
+    <script src="lib/d3.js" charset="utf-8"></script>
+    <script src="lib/d3.layout.cloud.js"></script>
+    <script src="d3.wordcloud.js"></script>
+    <script src="data/part-0000-twt-wc.js"></script>
+	<script src="data/part-0000-nyt-wc.js"></script>
+	<style>
+	body {
+		text-align: center;
+		margin: 2px;
+	}
+	#btn {
+		width: 80px;
+		height: 25px;
+		padding-top: 10px;
+		padding-right: 6px;
+		padding-bottom: 10px;
+		padding-left: 6px;
+		text-align: center;
+		margin: 6px;
+		font-size: 1em;
+		font: bold;
+		border-radius: 4px;
+		line-height: 2px;
+				
+	}
+	</style>
+  </head>
+  <body style="text-align: center">
+    <h1>Word Cloud Comparison</h1>
+	Enter word count: <input id="wc_size" type="text" ><br>
+	<button id="btn">Submit</button>
+	
+	<table border= "2" align="center">
+	<tr>
+	<td><h2 style="text-align: center">Twitter Word Cloud</h2></td>
+	<td><h2 style="text-align: center">NY Times Word Cloud</h2></td>
+	</tr>
+	<tr>
+	<td style="padding-right:2px"> 	
+    <div id='wordcloud1'></div>
+	</td>
+	<td style="padding-right:2px">	
+    <div id='wordcloud2'></div>
+	</td>
+	</tr>
+	<tr>
+	<td><p id="info1" style="text-align: center"></p></td>
+	<td><p id="info2" style="text-align: center"></p></td>
+	</tr>
+	</table>
+    <script>
+	$(document).ready(function () {
+	  wc_size = 100;
+	  
+	  tw_words = tweet_words.sort(function(a, b){
+			return b.size - a.size;
+	  });
+	  /*for(i=0;i<tw_words.length;i++) {
+	      if(tw_words[i].size > 10000) {
+			tw_words[i].size = tw_words[i].size - 2800;
+		  }
+	  }*/
+	  console.log(tweet_words[0].text);
+	  
+	  ny_words = nyt_words.sort(function(a, b){
+			return b.size - a.size;
+	  });
+	    draw_cloud();
+		
+		$('#btn').click(function () {
+		   
+		   var cnt = $('#wc_size').val();
+		   if(cnt != '') {
+                wc_size = cnt;
+				$("#wordcloud1").empty();
+				$("#wordcloud2").empty();
+				$('#wc_size').val('');
+				draw_cloud();
+		   }
+		 });
+			
+	});
+	
+	function draw_cloud () {
+	 var words1 = this.tw_words.slice(0,this.wc_size);
+	 for (i=0; i<words1.length; i++)
+	 console.log("word1 ", words1[i].text, words1[i].size);
+	 var words2 = this.ny_words.slice(0,this.wc_size);
+      d3.wordcloud()
+        .size([650, 550])
+        .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+        .words(words1)
+        .onwordclick(function(d, i) {
+          if (d.href) { window.location = d.href; }
+        })
+        .start();
+	  d3.wordcloud2()
+        .size([650, 550])
+        .fill(d3.scale.ordinal().range(["#884400", "#448800", "#888800", "#444400"]))
+        .words(words2)
+        .onwordclick(function(d, i) {
+          if (d.href) { window.location = d.href; }
+        })
+        .start();
+		
+		$('#info1').text("Word Cloud for top " + wc_size + " Twitter words on Gun Violence");
+		$('#info2').text("Word Cloud for top " + wc_size + " NYtimes words on Gun Violence");
+	}
+	
+    </script>
+  </body>
+</html>
+
