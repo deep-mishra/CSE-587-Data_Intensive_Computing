@@ -13,7 +13,7 @@ The project fetches the tweets on influenza and plots the heat map to compare ho
 ##
 
 ## Project 2 - Sentiment Analysis on Gun Violence
-Performed Sentiment analysis of People on gun violence on Twitter data and compared that with NYTimes articles. Hadoop is used to perform the word count and co-occurance of top words in two sets of data. I have used python to implement mapper and reducer for Hadoop framework.
+Performed Sentiment analysis of People on gun violence on Twitter data and compared that with NYTimes articles. Hadoop is used to perform the word count and co-occurance of top words in two sets of data. I have used python to implement mapper and reducer for Hadoop framework. And, d3 for word-could.
 
 [TopWordComp.html](Project2-SentimentAnalysis/SentimentAnalysis/d3_wordcloud/topwords-wordcloud.html)
 
