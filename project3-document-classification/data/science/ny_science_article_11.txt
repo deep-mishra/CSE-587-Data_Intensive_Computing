@@ -1,0 +1,20 @@
+Robots have taken our jobs, learned our chores and beaten us at our own games.
+Now researchers in Singapore say they have trained one to perform another task known to confound humans: figuring out how to assemble furniture from Ikea. 
+A team from Nanyang Technological University programmed a robot to create and execute a plan to piece together most of Ikea’s $25 solid-pine Stefan chair on its own, calling on a medley of human skills to do so. The researchers explained their work in a study published on Wednesday in the journal Science Robotics. 
+“If you think about it, it requires perception, it requires you to plan a motion, it requires control between the robot and the environment, it requires transporting an object with two arms simultaneously,” said Dr. Quang-Cuong Pham, an assistant professor of engineering at the university and one of the paper’s authors. “Because this task requires so many interesting skills for robots, we felt that it could be a good project to push our capabilities to the limit.”
+He and his Nanyang colleagues who worked on the study, Francisco Suárez-Ruiz and Xian Zhou, aren’t alone.
+In recent years, a handful of others have set out to teach robots to assemble Ikea furniture, a task that can mimic the manipulations robots can or may someday perform on factory floors and that involves a brand many know all too well.
+“It’s something that almost everybody is familiar with and almost everybody hates doing,” said Ross A. Knepper, an assistant professor of computer science at Cornell University, whose research focuses on human-robot interaction.
+In 2013, Mr. Knepper was part of a team at the Massachusetts Institute of Technology that presented a paper on its work in the area, describing the “IkeaBot” the team created, which could assemble the company’s Lack table on its own. 
+But chairs, with backs, stretchers and other parts, pose a more complex challenge; hence the interest of the Nanyang researchers.
+Their robot was made of custom software, a three-dimensional camera, two robotic arms, grippers and force detectors. The team chose only off-the-shelf tools, in order to mirror human biology.
+“Humans have the same hardware to do many different things,” Dr. Pham said. “So this is kind of the genericity that we wanted to mimic.”
+Also like humans, the robot had a little help to start: It was fed a kind of manual, a set of ordered instructions on how the pieces fit together. After that, though, it was on its own.
+The robot proceeded in three broad phases, spread out over 20 minutes 19 seconds. 
+First, like humans, it took some time to stare at the pieces scattered before it. 
+The robot spent a few seconds photographing the scene and matching each part to the one modeled in its “manual.”
+Then, over more than 11 minutes, the robot devised a plan that would allow it to quickly assemble the chair without its arms knocking into each other or into the various parts.
+Finally, it put the plan in motion over the course of nearly nine minutes. The robot used grippers to pick up the wooden pins from a tray and force sensors at its “wrists” to detect when the pins, searching in a spiral pattern, finally slid into their holes. Working in unison, the arms then pressed the sides of the chair frame together.
+Of course, the robot didn’t succeed right away. There were several failed attempts along the way and researchers tweaked the system before the robot was finally able to assemble the chair on its own.
+The accomplishment was the culmination of three years of work, but the team is eager to see what else it can automate, Dr. Pham said.
+With the help of experts in artificial intelligence, the researchers may be able to create a robot that can build a chair by following spoken directions or by watching someone else do it first, he said. Or maybe, he said, they’ll eventually develop one that assembles furniture in a way that is truly human: by ignoring the manual altogether.
