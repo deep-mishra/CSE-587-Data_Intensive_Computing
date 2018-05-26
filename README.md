@@ -22,3 +22,11 @@ Performed Sentiment analysis of People on gun violence on Twitter data and compa
 [CooccurTopWordComp.html](Project2-SentimentAnalysis/SentimentAnalysis/d3_wordcloud/co-occur-wordcloud.html)
 
 ![Comparison2](Project2-SentimentAnalysis/SentimentAnalysis/images/comparison2.PNG)
+
+
+##
+##
+
+## Project 3 - Document Classification
+
+In progress..
