@@ -2,7 +2,7 @@
 
 ##
 
-## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in US States. [Code..](Project1-Twitter_vs_CDC_Influenza_Analysis)
+## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in US States. [Repo..](Project1-Twitter_vs_CDC_Influenza_Analysis)
 The project fetches the tweets on influenza and plots the heat map to compare how twitter reacted on influenza affected States. The complete project is implemented in R with the help of twitteR and geocode API for collecting tweets.
 
 [TwtsVsCdsAnalysis.R](Project1-Twitter_vs_CDC_Influenza_Analysis/TweetsVsCdsAnalysis.ipynb)
@@ -12,7 +12,7 @@ The project fetches the tweets on influenza and plots the heat map to compare ho
 ##
 ##
 
-## Project 2 - Sentiment Analysis on Gun Violence. [Code..](Project2-SentimentAnalysis)
+## Project 2 - Sentiment Analysis on Gun Violence. [Repo..](Project2-SentimentAnalysis)
 Performed Sentiment analysis of People on gun violence on Twitter data and compared that with NYTimes articles. Hadoop is used to perform the word count and co-occurance of top words in two sets of data. I have used d3 for word-could and python to implement mapper and reducer of Hadoop framework.
 
 [TopWordComp.html](Project2-SentimentAnalysis/SentimentAnalysis/d3_wordcloud/topwords-wordcloud.html)
