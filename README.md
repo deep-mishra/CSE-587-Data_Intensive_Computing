@@ -2,7 +2,7 @@
 
 ##
 
-## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in States
+## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in States [](Project1-Twitter_vs_CDC_Influenza_Analysis)
 The project fetches the tweets on influenza and plots the heat map to compare how twitter reacted on influenza affected States. The complete project is implemented in R with the help of twitteR and geocode API for collecting tweets.
 
 [TwtsVsCdsAnalysis.R](Project1-Twitter_vs_CDC_Influenza_Analysis/TweetsVsCdsAnalysis.ipynb)
@@ -35,6 +35,7 @@ News articles can be from different categories like sports, business, etc. This 
 [DocumentClassification Python Code](project3-document-classification/document-classification.ipynb)
 
 **Prediction Result:**
+
 Prediction using Random Forest Classification-
 ![RandomForestClassification](project3-document-classification/output/random_forest_classification.png)
 
