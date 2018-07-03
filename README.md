@@ -12,7 +12,7 @@ The project fetches the tweets on influenza and plots the heat map to compare ho
 ##
 ##
 
-## Project 2 - Sentiment Analysis on Gun Violence. [Repo..](project2-sentiment-analysis)
+## Project 2 - Sentiment Analysis on Gun Violence using Hadoop. [Repo..](project2-sentiment-analysis)
 Performed Sentiment analysis of People on gun violence on Twitter data and compared that with NYTimes articles. **Hadoop** is used to perform the word count and co-occurance of top words in two sets of data. I have used d3 for word-could and python to implement mapper and reducer of Hadoop framework.
 
 [TopWordComp.html](project2-sentiment-analysis/SentimentAnalysis/d3_wordcloud/topwords-wordcloud.html)
@@ -27,7 +27,7 @@ Performed Sentiment analysis of People on gun violence on Twitter data and compa
 ##
 ##
 
-## Project 3 - Document Classification. [Repo..](project3-document-classification)
+## Project 3 - Document Classification using Spark Infrastructure. [Repo..](project3-document-classification)
 News articles can be from different categories like sports, business, etc. This project uses **Spark infrastructure with machine learning** to predict the category of articles. The first step is to train our model using the training set, test it, and finally predict the unknow set of articles and evaluate the performance of trained model.
 
 [ArticleCollection Python Code](project3-document-classification/arcticles-collection.ipynb)
