@@ -2,26 +2,26 @@
 
 ##
 
-## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in US States. [Repo..](Project1-Twitter_vs_CDC_Influenza_Analysis)
+## Project 1 - Analyse Twitter reaction vs CDC surveillance report on influenza activity in US States. [Repo..](project1-twitter-vs-cdc-influenza-analysis)
 The project fetches the tweets on influenza and plots the heat map to compare how twitter reacted on influenza affected States. The complete project is implemented in R with the help of twitteR and geocode API for collecting tweets.
 
-[TwtsVsCdsAnalysis.R](Project1-Twitter_vs_CDC_Influenza_Analysis/TweetsVsCdsAnalysis.ipynb)
+[TwtsVsCdsAnalysis.R](project1-twitter-vs-cdc-influenza-analysis/TweetsVsCdsAnalysis.ipynb)
 
-![HeatMap](Project1-Twitter_vs_CDC_Influenza_Analysis/pics/twt_vs_cdc.PNG)
+![HeatMap](project1-twitter-vs-cdc-influenza-analysis/pics/twt_vs_cdc.PNG)
 
 ##
 ##
 
-## Project 2 - Sentiment Analysis on Gun Violence. [Repo..](Project2-SentimentAnalysis)
+## Project 2 - Sentiment Analysis on Gun Violence. [Repo..](project2-sentiment-analysis)
 Performed Sentiment analysis of People on gun violence on Twitter data and compared that with NYTimes articles. Hadoop is used to perform the word count and co-occurance of top words in two sets of data. I have used d3 for word-could and python to implement mapper and reducer of Hadoop framework.
 
-[TopWordComp.html](Project2-SentimentAnalysis/SentimentAnalysis/d3_wordcloud/topwords-wordcloud.html)
+[TopWordComp.html](project2-sentiment-analysis/SentimentAnalysis/d3_wordcloud/topwords-wordcloud.html)
 
-![Comparison1](Project2-SentimentAnalysis/SentimentAnalysis/images/comparison1.PNG)
+![Comparison1](project2-sentiment-analysis/SentimentAnalysis/images/comparison1.PNG)
 
-[CooccurTopWordComp.html](Project2-SentimentAnalysis/SentimentAnalysis/d3_wordcloud/co-occur-wordcloud.html)
+[CooccurTopWordComp.html](project2-sentiment-analysis/SentimentAnalysis/d3_wordcloud/co-occur-wordcloud.html)
 
-![Comparison2](Project2-SentimentAnalysis/SentimentAnalysis/images/comparison2.PNG)
+![Comparison2](project2-sentiment-analysis/SentimentAnalysis/images/comparison2.PNG)
 
 
 ##
