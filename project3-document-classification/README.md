@@ -4,13 +4,12 @@ News articles can be from different categories like sports, business, etc. This 
 
 [ArticleCollection Python Code](arcticles-collection.ipynb)
 
-[DocumentClassification Python Code](project3-document-classification/document-classification.ipynb)
+[DocumentClassification Python Code](document-classification.ipynb)
 
 **Prediction Result:**
 
 Prediction using Random Forest Classification-
-![RandomForestClassification](project3-document-classification/output/random_forest_classification.png)
+![RandomForestClassification](output/random_forest_classification.png)
 
 Prediction using Logistic Regression Model
-![LogisticRegression](project3-document-classification/output/logistic_regression.png)
-
+![LogisticRegression](output/logistic_regression.png)
